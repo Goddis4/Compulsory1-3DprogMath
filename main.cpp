@@ -347,13 +347,13 @@ int main()
     // Uncomment the calculation-function you wish to see
     
     // Calculate vertex coordinatess for 2D-graph
-    //calculate2DGraph(vertices, minX, maxX, pointsCount, equation2D);
+    calculate2DGraph(vertices, minX, maxX, pointsCount, equation2D);
 
     // Calculate vertex coordinates for 3D-spiral
     //calculateSpiral(vertices, pointsCount);
 
     // Calculate vertex coordinates for 3D-graph
-    calculate3DGraph(vertices, pointsCount, equation3D);
+    //calculate3DGraph(vertices, pointsCount, equation3D);
     // ____________________________________________________________________________________________________________________
 
 
@@ -424,11 +424,13 @@ int main()
         glLineWidth(2);
 
         // DECIDE BETWEEN DRAWING METHOS FOR 2D-/SPIRAL AND 3D-GRAPHS
+        // Uncomment the drawing method you want to see
+        
         // Drawing method for 2D-graph and spiral
-        //draw2DGraphSpiralLines(VAO, pointsCount, shaderProgram, pitchValueLocation, vertices);
+        draw2DGraphSpiralLines(VAO, pointsCount, shaderProgram, pitchValueLocation, vertices);
 
         // Drawing method for 3D-graph
-        draw3DGraphLines(VAO, pointsCount*pointsCount, shaderProgram, pitchValueLocation, vertices);
+        //draw3DGraphLines(VAO, pointsCount*pointsCount, shaderProgram, pitchValueLocation, vertices);
         // __________________________________________________________
 
         // Swap the back buffer with the front buffer
