@@ -71,12 +71,12 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>C:\Users\gardo\Documents\HINN skole\4. semester\3D-programmering\VS-prosjekter\oblig1\Libraries\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\gardo\Documents\HINN skole\4. semester\3D-programmering\VS-prosjekter\oblig1\Libraries\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\gardo\Documents\GitHub\Compulsory1-3DprogMath\Libraries\include</IncludePath>
+    <LibraryPath>C:\Users\gardo\Documents\GitHub\Compulsory1-3DprogMath\Libraries\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Users\gardo\Documents\HINN skole\4. semester\3D-programmering\VS-prosjekter\oblig1\Libraries\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\gardo\Documents\HINN skole\4. semester\3D-programmering\VS-prosjekter\oblig1\Libraries\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\gardo\Documents\GitHub\Compulsory1-3DprogMath\Libraries\include</IncludePath>
+    <LibraryPath>C:\Users\gardo\Documents\GitHub\Compulsory1-3DprogMath\Libraries\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
